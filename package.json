@@ -1,0 +1,31 @@
+{
+  "name": "21-12-08-createelement",
+  "version": "1.0.0",
+  "description": "A simple javascript function to create a new HTML element",
+  "main": "dist/CreateElement.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LevineLighto/HTMLElementCreator.git"
+  },
+  "keywords": [
+    "HTML",
+    "Javascript",
+    "HTML Element"
+  ],
+  "author": "LevineLito",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LevineLighto/HTMLElementCreator/issues"
+  },
+  "homepage": "https://github.com/LevineLighto/HTMLElementCreator#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
