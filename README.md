@@ -1,6 +1,11 @@
 # HTML Element Creator
 A simple javascript function to create a new HTML element
 
+## Installation
+```html
+<script src="https://cdn.jsdelivr.net/npm/@levinelito/create-html-element"></script>
+```
+
 ## Usage
 
 #### First Example
