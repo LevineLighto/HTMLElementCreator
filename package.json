@@ -1,5 +1,5 @@
 {
-  "name": "21-12-08-createelement",
+  "name": "@levinelito/create-html-element",
   "version": "1.0.0",
   "description": "A simple javascript function to create a new HTML element",
   "main": "dist/CreateElement.js",
@@ -10,12 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/LevineLighto/HTMLElementCreator.git"
   },
-  "keywords": [
-    "HTML",
-    "Javascript",
-    "HTML Element"
-  ],
-  "author": "LevineLito",
+  "keywords": ["HTML Element"],
+  "author": "Levine Lito",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/LevineLighto/HTMLElementCreator/issues"
