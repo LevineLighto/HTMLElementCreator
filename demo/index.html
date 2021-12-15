@@ -9,15 +9,20 @@
 <body>
     <script src="../dist/CreateElement.js"></script>
     <script>
+        const attr = {};
+        attr['data-type'] = 'paragraph';
+
         const container = CreateElement({classnames: 'container'}),
             list        = CreateElement({tagname: 'ul'}),
-            paragraph   = CreateElement({tagname: 'p', content: 'This is a paragraph'});
+            paragraph   = CreateElement({tagname: 'p', content: 'This is a paragraph', attributes: attr}),
+            button      = CreateElement({tagname: 'button', content: 'Button', attributes: { disabled : 'disabled' }});
 
         Array(5).fill(0).map((_, i) => list.append(CreateElement({tagname: 'li', content: `Content-${i}`})));
 
         container.append(paragraph);
         container.append(list);
         document.body.append(container);
+        document.body.append(button);
         
     </script>
 </body>
