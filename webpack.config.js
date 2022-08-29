@@ -7,13 +7,5 @@ module.exports = {
         filename: 'CreateElement.js',
         libraryTarget: 'umd',
     },
-    module: {
-        rules: [
-            {
-                exclude: /node_modules/,
-                use: 'babel-loader'
-            }
-        ]
-    },
     mode: 'production'
 }
